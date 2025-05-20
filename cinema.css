@@ -1,0 +1,56 @@
+body {
+    font-family: Arial;
+    margin: 10px;
+    padding: 10px;
+    background-color: whitesmoke;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: auto;
+}
+.h1{
+    text-align: center;
+    color: black;
+}
+.film-card {
+    background: white;
+    border-radius: 9px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    display: flex;
+    gap: 19px;
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.film-details {
+    flex: 1;
+}
+
+.film-card img{
+    width: 150%;
+    border-radius: 8px;
+}
+
+.film-tittle {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.film-description {
+    margin-bottom: 10px;
+}
+
+.book-button{
+    background-color:lightblue;
+    color: white;
+    padding: 8px 13px;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+.book-button:disabled{
+    background-color: #ccc;
+}
